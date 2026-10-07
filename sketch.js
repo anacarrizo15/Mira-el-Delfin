@@ -1254,6 +1254,7 @@ function mouseClicked() {
     else if (quitHovered) {
       clickSound.play();
       oceanSound.stop();
+      backgroundMusic.stop();
 
       gameState = "intro";
 
